@@ -25,6 +25,10 @@
 		746305AD29DC625A004605F7 /* BillInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746305AC29DC625A004605F7 /* BillInputView.swift */; };
 		746305AF29DC6299004605F7 /* TipInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746305AE29DC6299004605F7 /* TipInputView.swift */; };
 		746305B129DC62C3004605F7 /* SplitInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746305B029DC62C3004605F7 /* SplitInputView.swift */; };
+		746305B429DC66E6004605F7 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746305B329DC66E6004605F7 /* UIColor+Ext.swift */; };
+		746305B729DC67A0004605F7 /* ThemeColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746305B629DC67A0004605F7 /* ThemeColor.swift */; };
+		746305B929DC67A6004605F7 /* ThemeFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746305B829DC67A6004605F7 /* ThemeFont.swift */; };
+		746305BC29DC6F12004605F7 /* LabelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746305BB29DC6F12004605F7 /* LabelHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +66,10 @@
 		746305AC29DC625A004605F7 /* BillInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillInputView.swift; sourceTree = "<group>"; };
 		746305AE29DC6299004605F7 /* TipInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipInputView.swift; sourceTree = "<group>"; };
 		746305B029DC62C3004605F7 /* SplitInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplitInputView.swift; sourceTree = "<group>"; };
+		746305B329DC66E6004605F7 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		746305B629DC67A0004605F7 /* ThemeColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColor.swift; sourceTree = "<group>"; };
+		746305B829DC67A6004605F7 /* ThemeFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeFont.swift; sourceTree = "<group>"; };
+		746305BB29DC6F12004605F7 /* LabelHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +126,9 @@
 		7463056829DC5B9B004605F7 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				746305BA29DC6F05004605F7 /* Helpers */,
+				746305B529DC6795004605F7 /* Components */,
+				746305B229DC66DC004605F7 /* Extensions */,
 				746305A729DC6166004605F7 /* Views */,
 				7463056929DC5B9B004605F7 /* AppDelegate.swift */,
 				7463056B29DC5B9B004605F7 /* SceneDelegate.swift */,
@@ -163,6 +174,31 @@
 				746305B029DC62C3004605F7 /* SplitInputView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		746305B229DC66DC004605F7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				746305B329DC66E6004605F7 /* UIColor+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		746305B529DC6795004605F7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				746305B629DC67A0004605F7 /* ThemeColor.swift */,
+				746305B829DC67A6004605F7 /* ThemeFont.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		746305BA29DC6F05004605F7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				746305BB29DC6F12004605F7 /* LabelHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,14 +347,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746305B929DC67A6004605F7 /* ThemeFont.swift in Sources */,
 				7463056E29DC5B9B004605F7 /* CalculatorViewController.swift in Sources */,
 				746305A929DC6172004605F7 /* LogoView.swift in Sources */,
 				746305AD29DC625A004605F7 /* BillInputView.swift in Sources */,
+				746305BC29DC6F12004605F7 /* LabelHelper.swift in Sources */,
 				746305AB29DC623F004605F7 /* ResultView.swift in Sources */,
 				7463056A29DC5B9B004605F7 /* AppDelegate.swift in Sources */,
 				7463056C29DC5B9B004605F7 /* SceneDelegate.swift in Sources */,
+				746305B429DC66E6004605F7 /* UIColor+Ext.swift in Sources */,
 				746305B129DC62C3004605F7 /* SplitInputView.swift in Sources */,
 				746305AF29DC6299004605F7 /* TipInputView.swift in Sources */,
+				746305B729DC67A0004605F7 /* ThemeColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
