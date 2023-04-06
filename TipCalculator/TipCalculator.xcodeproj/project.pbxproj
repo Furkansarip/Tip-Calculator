@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74526C9329DF19B80026426A /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74526C9229DF19B80026426A /* HeaderView.swift */; };
 		7463056A29DC5B9B004605F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463056929DC5B9B004605F7 /* AppDelegate.swift */; };
 		7463056C29DC5B9B004605F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463056B29DC5B9B004605F7 /* SceneDelegate.swift */; };
 		7463056E29DC5B9B004605F7 /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7463056D29DC5B9B004605F7 /* CalculatorViewController.swift */; };
@@ -51,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		74526C9229DF19B80026426A /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		7463056629DC5B9B004605F7 /* TipCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TipCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7463056929DC5B9B004605F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7463056B29DC5B9B004605F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -177,6 +179,7 @@
 				746305AE29DC6299004605F7 /* TipInputView.swift */,
 				746305B029DC62C3004605F7 /* SplitInputView.swift */,
 				747C0E2329DDB5670095A783 /* AmountView.swift */,
+				74526C9229DF19B80026426A /* HeaderView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -363,6 +366,7 @@
 				746305AB29DC623F004605F7 /* ResultView.swift in Sources */,
 				7463056A29DC5B9B004605F7 /* AppDelegate.swift in Sources */,
 				7463056C29DC5B9B004605F7 /* SceneDelegate.swift in Sources */,
+				74526C9329DF19B80026426A /* HeaderView.swift in Sources */,
 				746305B429DC66E6004605F7 /* UIColor+Ext.swift in Sources */,
 				746305B129DC62C3004605F7 /* SplitInputView.swift in Sources */,
 				746305AF29DC6299004605F7 /* TipInputView.swift in Sources */,

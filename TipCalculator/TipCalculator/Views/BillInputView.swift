@@ -10,7 +10,9 @@ import UIKit
 class BillInputView: UIView {
     
     private let headerView : HeaderView = {
-       return HeaderView()
+        let view = HeaderView()
+        view.configure(topText: "Enter", bottomText: "your bill")
+        return view
     }()
     
     private let textFieldContainerView: UIView = {
@@ -21,13 +23,13 @@ class BillInputView: UIView {
     }()
     
     private let currencyDenominationLabel: UILabel = {
-       let label =  LabelHelper.buildLabel(text: "$", font: ThemeFont.bold(ofSize: 24))
+        let label =  LabelHelper.buildLabel(text: "$", font: ThemeFont.bold(ofSize: 24))
         label.setContentHuggingPriority(.defaultHigh, for: .horizontal)
         return label
     }()
     
     private lazy var textField : UITextField = {
-       let textField = UITextField()
+        let textField = UITextField()
         textField.setContentHuggingPriority(.defaultLow, for: .horizontal)
         textField.keyboardType = .decimalPad
         textField.borderStyle = .none
@@ -91,14 +93,4 @@ class BillInputView: UIView {
     }
 }
 
-class HeaderView: UIView {
-    
-    override init(frame: CGRect) {
-        super.init(frame: .zero)
-    }
-    
-    required init?(coder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
-    }
-    
-}
+
